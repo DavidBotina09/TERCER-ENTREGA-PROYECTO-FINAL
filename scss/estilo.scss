@@ -21,5 +21,13 @@
 @import "./pagina_cortes/responsive.scss";
 }
 /*termina la pagina de cortes*/
+.pagina_tijeras{
+    @import "./pagina_tijeras/nav.scss";
+    @import "./pagina_tijeras/header.scss";
+    @import "./pagina_tijeras/main.scss";
+    @import "./pagina_tijeras/footer.scss";
+    @import "./pagina_tijeras/responsive.scss";
+}
+/*termina la pagina de tijeras*/
 
 
