@@ -1,0 +1,21 @@
+.lineas{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+main{
+    .informacion{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        h3,p{
+            font-family: 'Tiro Gurmukhi', serif;
+            text-align: center;
+        }
+    }
+    .beneficios{
+        @extend .informacion;
+        overflow: hidden;
+        text-align: center;
+    }
+}
