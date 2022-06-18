@@ -29,5 +29,13 @@
     @import "./pagina_tijeras/responsive.scss";
 }
 /*termina la pagina de tijeras*/
+.pagina_cuchillas{
+    @import "./pagina_cuchillas/nav.scss";
+    @import "./pagina_cuchillas/header.scss";
+    @import "./pagina_cuchillas/main.scss";
+    @import "./pagina_cuchillas/footer.scss";
+    @import "./pagina_cuchillas/responsive.scss";
+}
+/*termina la pagina de cuchillas*/
 
 
