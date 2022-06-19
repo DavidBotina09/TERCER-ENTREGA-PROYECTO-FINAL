@@ -346,6 +346,70 @@
   .pagina_tijeras header h1 {
     font-size: 5rem; }
 
+.pagina_tijeras .lineas {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid black; }
+
+.pagina_tijeras main {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .pagina_tijeras main .teoria h2 {
+    text-align: center;
+    font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_tijeras main .teoria .filas div {
+    border: 3px solid black;
+    border-radius: 4rem;
+    width: 30%;
+    margin-top: 2rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem; }
+    .pagina_tijeras main .teoria .filas div img {
+      border-radius: 3rem;
+      margin-left: 0.6rem; }
+  .pagina_tijeras main .historia .origen {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+    .pagina_tijeras main .historia .origen h2 {
+      font-family: 'Tiro Gurmukhi', serif;
+      text-align: center; }
+    .pagina_tijeras main .historia .origen p {
+      text-align: center;
+      font-size: 1.1rem; }
+    .pagina_tijeras main .historia .origen img {
+      border: 2px solid black;
+      border-radius: 3rem;
+      margin-left: 16.5%; }
+  .pagina_tijeras main .historia .evolucion {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+    .pagina_tijeras main .historia .evolucion h2 {
+      font-family: 'Tiro Gurmukhi', serif;
+      text-align: center; }
+    .pagina_tijeras main .historia .evolucion p {
+      text-align: center;
+      font-size: 1.1rem; }
+    .pagina_tijeras main .historia .evolucion img {
+      border: 2px solid black;
+      border-radius: 3rem;
+      margin-left: 9%; }
+  .pagina_tijeras main .practica h2 {
+    text-align: center;
+    font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_tijeras main .practica .video_practica div iframe {
+    margin-left: 16%;
+    border-radius: 3rem;
+    border: 3px solid black; }
+  .pagina_tijeras main .practica .video_practica div .video_tres {
+    margin-top: 2rem;
+    margin-left: 33%; }
+
 .pagina_tijeras footer {
   background-color: black;
   text-align: center; }

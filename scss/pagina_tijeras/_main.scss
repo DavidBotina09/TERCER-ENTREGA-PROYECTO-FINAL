@@ -1,0 +1,92 @@
+.lineas{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+}
+main{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    .teoria{
+        h2{
+            text-align: center;
+            font-family: 'Tiro Gurmukhi', serif;
+        }
+        .filas{
+            div{
+                border: 3px solid black;
+                border-radius: 4rem;
+                width: 30%;
+                margin-top: 2rem;
+                margin-left: 7.5rem;
+                margin-right: 7.5rem;
+                margin-bottom: 2rem;
+                padding: 1rem;
+                img{
+                    border-radius: 3rem;
+                    margin-left: 0.6rem;
+                }
+
+            }
+        }
+    }
+    .historia{
+        .origen{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            h2{
+                font-family: 'Tiro Gurmukhi', serif;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: 1.1rem;
+            }
+            img{
+                border: 2px solid black;
+                border-radius: 3rem;
+                margin-left:16.5%;
+            }
+        }
+        .evolucion{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            h2{
+                font-family: 'Tiro Gurmukhi', serif;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: 1.1rem;
+            }
+            img{
+                border: 2px solid black;
+                border-radius: 3rem;
+                margin-left:9%;
+            }
+        }
+    }
+    .practica{
+        h2{
+            text-align: center;
+            font-family: 'Tiro Gurmukhi', serif;
+        }
+        .video_practica{
+            div{
+                iframe{
+                    margin-left: 16%;
+                    border-radius: 3rem;
+                    border: 3px solid black;
+                }
+                .video_tres{
+                    margin-top: 2rem;
+                    margin-left: 33%;
+                }
+            }
+        }
+
+    }
+}
