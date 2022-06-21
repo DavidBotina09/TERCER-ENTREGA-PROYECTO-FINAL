@@ -344,6 +344,7 @@
   border: 1px solid black; }
 
 .pagina_tijeras main {
+  overflow: hidden;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%; }
@@ -539,6 +540,7 @@
   border: 1px solid black; }
 
 .pagina_cuchillas main {
+  overflow: hidden;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%; }
