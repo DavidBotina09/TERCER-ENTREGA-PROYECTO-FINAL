@@ -1,0 +1,35 @@
+@media only screen and (max-width:700px){
+    .navegadora{
+        height: auto;
+        font-size: 1.2rem;
+        ul{
+            flex-direction: column;
+            margin-right: 8%;
+            li{
+                margin: 0.5rem;
+                a{
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    header{
+        height: 17rem;
+        background-size: 100%;
+        opacity: 50%;
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+    main{
+       .formulario{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+       }
+    }
+
+}
