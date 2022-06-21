@@ -1,0 +1,33 @@
+footer{
+    background-color: black;
+    text-align: center;
+    .logo_facebook{
+        @include logos;
+        &:hover{
+            @include logos_hover (blue);
+        }
+    }
+    .logo_instagram{
+        @include logos;
+        &:hover{
+            @include logos_hover (red);
+        }
+    }
+    .logo_whats{
+        @include logos;
+        &:hover{
+            @include logos_hover (green);
+        }
+    }
+    .ultima{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        .logo_barber{
+            width: 8rem;
+            height: 8rem;
+            border-radius: 4rem;
+        }
+    }
+}

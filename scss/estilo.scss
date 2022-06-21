@@ -37,5 +37,13 @@
     @import "./pagina_cuchillas/responsive.scss";
 }
 /*termina la pagina de cuchillas*/
+.pagina_usuarios{
+    @import "./pagina_usuarios/nav.scss";
+    @import "./pagina_usuarios/header.scss";
+    @import "./pagina_usuarios/main.scss";
+    @import "./pagina_usuarios/footer.scss";
+    @import "./pagina_usuarios/responsive.scss";
+}
+/*termina la pagina de usuarios*/
 
 

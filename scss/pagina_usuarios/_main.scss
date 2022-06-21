@@ -1,0 +1,21 @@
+main{
+    .formulario{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border: 2px solid black;
+        border-radius: 3rem;
+        padding: 1rem;
+        .boton{
+            background-color: black;
+            color: white;
+            &:hover{
+                background-color: white;
+                color: black;
+                border: 1px solid black;
+            }
+        }
+    }
+}

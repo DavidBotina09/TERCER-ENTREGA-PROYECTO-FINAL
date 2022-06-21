@@ -598,3 +598,106 @@
       border-radius: 4rem; }
 
 /*termina la pagina de cuchillas*/
+.pagina_usuarios .navegadora {
+  background-color: black;
+  font-size: 1.5rem; }
+  .pagina_usuarios .navegadora:hover {
+    background-color: white; }
+  .pagina_usuarios .navegadora:hover a {
+    color: black; }
+  .pagina_usuarios .navegadora ul {
+    margin-right: 2%;
+    margin-bottom: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto; }
+    .pagina_usuarios .navegadora ul li {
+      text-align: center;
+      margin: 1rem;
+      width: 10rem; }
+      .pagina_usuarios .navegadora ul li:hover {
+        background-color: white;
+        transform: scale(1.3, 1.3);
+        transition: 0.5s; }
+      .pagina_usuarios .navegadora ul li:hover a {
+        text-decoration: underline;
+        color: black;
+        transition: 0.2s; }
+      .pagina_usuarios .navegadora ul li img {
+        border-radius: 45px;
+        border: 2px solid black; }
+      .pagina_usuarios .navegadora ul li a {
+        color: white;
+        text-decoration: none; }
+
+.pagina_usuarios header {
+  font-family: 'Tiro Gurmukhi', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 550px;
+  background: url(/imagenes/fondo-pagina-usuarios.jpeg);
+  background-size: cover;
+  opacity: 70%; }
+  .pagina_usuarios header h1 {
+    font-size: 5rem; }
+
+.pagina_usuarios main .formulario {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 2px solid black;
+  border-radius: 3rem;
+  padding: 1rem; }
+  .pagina_usuarios main .formulario .boton {
+    background-color: black;
+    color: white; }
+    .pagina_usuarios main .formulario .boton:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black; }
+
+.pagina_usuarios footer {
+  background-color: black;
+  text-align: center; }
+  .pagina_usuarios footer .logo_facebook {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_usuarios footer .logo_facebook:hover {
+      transform: scale(1.3, 1.3);
+      background-color: blue;
+      border-radius: 1rem; }
+  .pagina_usuarios footer .logo_instagram {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_usuarios footer .logo_instagram:hover {
+      transform: scale(1.3, 1.3);
+      background-color: red;
+      border-radius: 1rem; }
+  .pagina_usuarios footer .logo_whats {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_usuarios footer .logo_whats:hover {
+      transform: scale(1.3, 1.3);
+      background-color: green;
+      border-radius: 1rem; }
+  .pagina_usuarios footer .ultima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; }
+    .pagina_usuarios footer .ultima .logo_barber {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 4rem; }
+
+/*termina la pagina de usuarios*/
