@@ -2,15 +2,11 @@
     .navegadora{
         height: auto;
         font-size: 1.2rem;
-        ul{  
-            display: flex;
+        ul{
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: auto;
+            margin-right: 8%;
             li{
                 margin: 0.5rem;
-                width: 80%;
                 a{
                     text-decoration: none;
                     text-align: center;
@@ -20,9 +16,8 @@
     }
 
     .header{
-        height: 20rem;
+        height: 17rem;
         background-size: 100%;
-        background-size: cover;
         opacity: 50%;
         h1{
             font-size: 3rem;

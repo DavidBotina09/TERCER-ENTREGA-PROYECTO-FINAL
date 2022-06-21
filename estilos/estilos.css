@@ -110,21 +110,16 @@
     height: auto;
     font-size: 1.2rem; }
     .pagina_index .navegadora ul {
-      display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: auto; }
+      margin-right: 8%; }
       .pagina_index .navegadora ul li {
-        margin: 0.5rem;
-        width: 80%; }
+        margin: 0.5rem; }
         .pagina_index .navegadora ul li a {
           text-decoration: none;
           text-align: center; }
   .pagina_index .header {
-    height: 20rem;
+    height: 17rem;
     background-size: 100%;
-    background-size: cover;
     opacity: 50%; }
     .pagina_index .header h1 {
       font-size: 3rem; } }
@@ -268,34 +263,30 @@
     height: auto;
     font-size: 1.2rem; }
     .pagina_cortes .navegadora ul {
-      display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: auto; }
+      margin-right: 8%; }
       .pagina_cortes .navegadora ul li {
-        margin: 0.5rem;
-        width: 80%; }
+        margin: 0.5rem; }
         .pagina_cortes .navegadora ul li a {
           text-decoration: none;
           text-align: center; }
   .pagina_cortes .header {
-    height: 20rem;
+    height: 17rem;
     background-size: 100%;
-    background-size: cover;
     opacity: 50%; }
     .pagina_cortes .header h1 {
       font-size: 3rem; }
-  .pagina_cortes .img_taper img {
+  .pagina_cortes .taper_fade .img_taper img {
     width: 15rem;
     height: 15rem; }
-  .pagina_cortes .iframe_taper iframe {
+  .pagina_cortes .taper_fade .iframe_taper iframe {
     width: 25rem;
     height: 14rem; }
-  .pagina_cortes .expli_taper {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%; } }
+  .pagina_cortes .taper_fade .expli_taper {
+    width: 90%;
+    margin: 0rem;
+    margin-left: 5%;
+    margin-right: 5%; } }
 
 /*termina la pagina de cortes*/
 .pagina_tijeras .navegadora {
@@ -447,6 +438,51 @@
       height: 8rem;
       border-radius: 4rem; }
 
+@media only screen and (max-width: 700px) {
+  .pagina_tijeras .navegadora {
+    height: auto;
+    font-size: 1.2rem; }
+    .pagina_tijeras .navegadora ul {
+      flex-direction: column;
+      margin-right: 8%; }
+      .pagina_tijeras .navegadora ul li {
+        margin: 0.5rem; }
+        .pagina_tijeras .navegadora ul li a {
+          text-decoration: none;
+          text-align: center; }
+  .pagina_tijeras .header {
+    height: 17rem;
+    background-size: 100%;
+    opacity: 50%; }
+    .pagina_tijeras .header h1 {
+      font-size: 3rem; }
+  .pagina_tijeras main {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
+    .pagina_tijeras main .teoria .filas div {
+      width: 100%;
+      margin-top: 1rem;
+      margin-left: 0rem;
+      margin-right: 0rem;
+      margin-bottom: 1rem; }
+      .pagina_tijeras main .teoria .filas div img {
+        margin-left: 0rem; }
+    .pagina_tijeras main .historia .origen img {
+      width: 100%;
+      margin-left: 0%; }
+    .pagina_tijeras main .historia .evolucion img {
+      width: 100%;
+      height: auto;
+      margin-left: 0%; }
+    .pagina_tijeras main .practica .video_practica div iframe {
+      width: 100%;
+      height: 13rem;
+      margin-left: 0%; }
+    .pagina_tijeras main .practica .video_practica div .video_tres {
+      margin-top: 0rem;
+      margin-left: 0%; } }
+
 /*termina la pagina de tijeras*/
 .pagina_cuchillas .navegadora {
   background-color: black;
@@ -596,6 +632,42 @@
       width: 8rem;
       height: 8rem;
       border-radius: 4rem; }
+
+@media only screen and (max-width: 700px) {
+  .pagina_cuchillas .navegadora {
+    height: auto;
+    font-size: 1.2rem; }
+    .pagina_cuchillas .navegadora ul {
+      flex-direction: column;
+      margin-right: 8%; }
+      .pagina_cuchillas .navegadora ul li {
+        margin: 0.5rem; }
+        .pagina_cuchillas .navegadora ul li a {
+          text-decoration: none;
+          text-align: center; }
+  .pagina_cuchillas header {
+    height: 17rem;
+    background-size: 100%;
+    opacity: 50%; }
+    .pagina_cuchillas header h1 {
+      font-size: 3rem; }
+  .pagina_cuchillas main {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
+    .pagina_cuchillas main .manejo .imagen_manejo img {
+      width: 90%;
+      height: 13rem;
+      margin: auto; }
+    .pagina_cuchillas main .manejo .video_manejo iframe {
+      width: 90%;
+      margin-top: 1rem;
+      height: 13rem; }
+    .pagina_cuchillas main .tipos_usos .ejemplos iframe {
+      width: 90%; }
+    .pagina_cuchillas main .freestyle div iframe {
+      width: 100%;
+      height: 15rem; } }
 
 /*termina la pagina de cuchillas*/
 .pagina_usuarios .navegadora {
