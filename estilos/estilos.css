@@ -340,7 +340,7 @@
   justify-content: center;
   color: white;
   height: 550px;
-  background-image: url(../imagenes/fondo-pagina-tijeras.jpeg);
+  background: url(../imagenes/fondo-pagina-tijeras.jpeg);
   background-size: cover;
   opacity: 70%; }
   .pagina_tijeras header h1 {
