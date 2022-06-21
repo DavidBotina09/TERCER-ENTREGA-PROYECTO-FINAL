@@ -496,6 +496,70 @@
     font-size: 5rem;
     color: white; }
 
+.pagina_cuchillas .lineas {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 1px solid black; }
+
+.pagina_cuchillas main {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .pagina_cuchillas main .info_cuchilla .informacion, .pagina_cuchillas .pagina_index main .info_cuchilla .beneficios, .pagina_index .pagina_cuchillas main .info_cuchilla .beneficios {
+    text-align: center; }
+    .pagina_cuchillas main .info_cuchilla .informacion h2, .pagina_cuchillas .pagina_index main .info_cuchilla .beneficios h2, .pagina_index .pagina_cuchillas main .info_cuchilla .beneficios h2 {
+      font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_cuchillas main .info_cuchilla .video_info {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .pagina_cuchillas main .info_cuchilla .video_info iframe {
+      border-radius: 3rem;
+      border: 2px solid black; }
+  .pagina_cuchillas main .manejo .texto_manejo h2 {
+    text-align: center;
+    font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_cuchillas main .manejo .texto_manejo p {
+    text-align: center; }
+  .pagina_cuchillas main .manejo .imagen_manejo {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .pagina_cuchillas main .manejo .imagen_manejo img {
+      border: 2px solid black;
+      border-radius: 3rem; }
+  .pagina_cuchillas main .manejo .video_manejo {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .pagina_cuchillas main .manejo .video_manejo iframe {
+      border: 2px solid black;
+      border-radius: 3rem; }
+  .pagina_cuchillas main .tipos_usos .maquina {
+    text-align: center; }
+    .pagina_cuchillas main .tipos_usos .maquina h3 {
+      font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_cuchillas main .tipos_usos .ejemplos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .pagina_cuchillas main .tipos_usos .ejemplos img {
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 2px solid black; }
+    .pagina_cuchillas main .tipos_usos .ejemplos iframe {
+      border-radius: 2rem;
+      border: 2px solid black; }
+  .pagina_cuchillas main .freestyle div {
+    text-align: center; }
+    .pagina_cuchillas main .freestyle div h2 {
+      font-family: 'Tiro Gurmukhi', serif; }
+    .pagina_cuchillas main .freestyle div iframe {
+      border: 2px solid black;
+      border-radius: 3rem; }
+
 .pagina_cuchillas footer {
   background-color: black;
   text-align: center; }

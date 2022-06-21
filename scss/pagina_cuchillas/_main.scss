@@ -1,0 +1,94 @@
+.lineas{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid black;
+}
+
+main{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    .info_cuchilla{
+        .informacion{
+            text-align: center;
+            h2{
+                font-family: 'Tiro Gurmukhi', serif;
+            }
+        }
+        .video_info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            iframe{
+                border-radius: 3rem;
+                border: 2px solid black;
+            }
+        }
+    }
+    .manejo{
+        .texto_manejo{
+            h2{
+                text-align: center;
+                font-family: 'Tiro Gurmukhi', serif;
+            }
+            p{
+                text-align: center;
+            }
+        }
+        .imagen_manejo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                border: 2px solid black;
+                border-radius: 3rem;
+            }
+        }
+        .video_manejo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            iframe{
+                border: 2px solid black;
+                border-radius: 3rem;
+            }
+        }
+    }
+    .tipos_usos{
+        .maquina{
+            text-align: center;
+            h3{
+                font-family: 'Tiro Gurmukhi', serif;
+            }
+        }
+        .ejemplos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img{
+                border-radius: 50%;
+                margin-bottom: 1rem;
+                border: 2px solid black;
+            }
+            iframe{
+                border-radius: 2rem;
+                border: 2px solid black;
+            }
+        }
+
+    }
+    .freestyle{
+        div{
+            text-align: center;
+            h2{
+                font-family: 'Tiro Gurmukhi', serif;
+            }
+            iframe{
+                border: 2px solid black;
+                border-radius: 3rem;
+            }
+        }
+    }
+}
