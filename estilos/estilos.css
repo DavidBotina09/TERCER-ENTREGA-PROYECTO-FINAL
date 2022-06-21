@@ -340,7 +340,7 @@
   justify-content: center;
   color: white;
   height: 550px;
-  background: url(../imagenes/fondo-pagina-tijeras.jpeg);
+  background-image: url(../../imagenes/fondo-pagina-tijeras.jpeg);
   background-size: cover;
   opacity: 70%; }
   .pagina_tijeras header h1 {
@@ -489,7 +489,7 @@
   align-items: center;
   justify-content: center;
   height: 550px;
-  background-image: url(/imagenes/fondo-pagina-cuchillas.jpeg);
+  background: url(../imagenes/fondo-pagina-cuchillas.jpeg);
   background-size: cover;
   opacity: 70%; }
   .pagina_cuchillas header h1 {
@@ -640,7 +640,7 @@
   justify-content: center;
   color: white;
   height: 550px;
-  background: url(/imagenes/fondo-pagina-usuarios.jpeg);
+  background: url(../imagenes/fondo-pagina-usuarios.jpeg);
   background-size: cover;
   opacity: 70%; }
   .pagina_usuarios header h1 {
